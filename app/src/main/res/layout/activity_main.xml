@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="inherit"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="278dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="PRIVACY GUARD"
+        android:textAlignment="center"
+        android:textColor="#002C14"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.00999999" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="363dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="85dp"
+            android:text="Wifi"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="363dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="50dp"
+            android:text="Mobile Data"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="363dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="50dp"
+            android:text="Location"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="363dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="50dp"
+            android:checked="true"
+            android:text="Camera"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="363dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="50dp"
+            android:checked="true"
+            android:text="Microphone"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="60dp"
+            android:text="Logout" />
+
+        <Button
+            android:id="@+id/resetPasswordLocal"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="Reset Password" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

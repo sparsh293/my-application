@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "429112694304",
+    "project_id": "camera4-75b97",
+    "storage_bucket": "camera4-75b97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429112694304:android:97e31d649090d4c5888e45",
+        "android_client_info": {
+          "package_name": "com.jfhr.disablecamera2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429112694304-dv6506qeo3gpalqcdmn3dv00mkt9tt1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzYgHFNmU3pvmt7DcMi_hWU3Rn1n8_5Qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429112694304-dv6506qeo3gpalqcdmn3dv00mkt9tt1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
